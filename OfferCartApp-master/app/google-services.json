@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "618500712908",
+    "firebase_url": "https://brandstore-933e6.firebaseio.com",
+    "project_id": "brandstore-933e6",
+    "storage_bucket": "brandstore-933e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618500712908:android:719388b9d73dadc0",
+        "android_client_info": {
+          "package_name": "com.codenicely.brandstore.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618500712908-n39jf2kum1ob5cvbjdasdurv4dgip7hk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr7bjc80mpMPs04NNfE8fFyHdt4BS9kFk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

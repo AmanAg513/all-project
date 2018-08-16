@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:background="#f8f8f5"
+                tools:showIn="@layout/activity_welcome">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+
+    <android.support.design.widget.TabLayout
+    android:id="@+id/tabLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:tabBackground="@drawable/tab_selector"
+    android:visibility="visible"
+    app:tabGravity="center"
+    android:layout_alignParentBottom="true"
+    android:layout_above="@+id/button_login_customer"
+    app:tabIndicatorHeight="0dp"/>
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="180dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="350dp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/button_login_customer"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_margin="0dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/button_login_shop"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:onClick="button"
+        android:text="@string/login_as_customer"
+        android:textSize="16dp"
+        />
+
+    <Button
+        android:id="@+id/button_login_shop"
+        android:background="@color/color_shop_primary_dark"
+        android:layout_margin="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:onClick="button"
+        android:text="@string/login_as_shop"
+        android:textSize="16dp"
+        />
+</RelativeLayout>
